@@ -1,0 +1,70 @@
+# ===== 系统垃圾 =====
+.DS_Store
+._*
+Thumbs.db
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===== 编辑器 =====
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ===== 数据（绝不入库）=====
+data/
+datasets/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.h5
+*.hdf5
+*.mat
+*.pkl
+*.joblib
+*.arrow
+*.jsonl.gz
+
+# ===== 模型权重（绝不入库）=====
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+*.onnx
+checkpoints/
+runs/
+wandb/
+mlruns/
+
+# ===== 缓存 / 临时输出 =====
+.cache/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+temp/
+tmp/
+*.log
+
+# ===== 密钥凭据 =====
+.env
+.env.*
+*.key
+token.txt
+secrets.yaml
+credentials.json
